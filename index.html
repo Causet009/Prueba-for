@@ -5,31 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PowerBoost - Bebida Energética</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>PowerBoost</h1>
+    <nav>
+        <div class="nav-container">
+            <h1>PowerBoost</h1>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#benefits">Beneficios</a></li>
+                <li><a href="#cta">Comprar</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="hero">
+        <h1>¡Energía Inagotable!</h1>
         <p>La bebida energética que te da el impulso que necesitas</p>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p>PowerBoost es la bebida perfecta para atletas, estudiantes y profesionales que necesitan mantenerse activos todo el día. Con una mezcla única de cafeína, vitaminas y electrolitos, te proporciona el boost de energía que buscas sin crashes.</p>
+                <button class="cta-button">Descubre Más</button>
+            </div>
+            <div class="hero-image">
+                <div class="can-placeholder">🍹 PowerBoost</div>
+            </div>
+        </div>
     </header>
     <main>
-        <section class="hero">
-            <h2>¡Energía Inagotable!</h2>
-            <p>PowerBoost es la bebida perfecta para atletas, estudiantes y profesionales que necesitan mantenerse activos todo el día. Con una mezcla única de cafeína, vitaminas y electrolitos, te proporciona el boost de energía que buscas sin crashes.</p>
-            <img src="placeholder.jpg" alt="PowerBoost Energy Drink" style="max-width: 300px;">
-        </section>
-        <section class="benefits">
+        <section class="benefits" id="benefits">
             <h2>Beneficios</h2>
-            <ul>
-                <li>Aumenta la concentración y el enfoque</li>
-                <li>Mejora el rendimiento físico</li>
-                <li>Sabor refrescante con cero azúcar añadida</li>
-                <li>Disponible en varios sabores: Original, Berry Blast, Citrus Rush</li>
-            </ul>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <h3>🔥 Aumenta la concentración</h3>
+                    <p>Mantén tu mente enfocada y alerta durante horas.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>💪 Mejora el rendimiento físico</h3>
+                    <p>Ideal para entrenamientos intensos y actividades deportivas.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>🍋 Sabor refrescante</h3>
+                    <p>Con cero azúcar añadida y sabores deliciosos.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>🌟 Variedad de sabores</h3>
+                    <p>Original, Berry Blast, Citrus Rush y más.</p>
+                </div>
+            </div>
         </section>
-        <section class="cta">
+        <section class="cta" id="cta">
             <h2>¡Prueba PowerBoost Hoy!</h2>
-            <p>Disponible en tiendas cerca de ti.</p>
-            <button>Comprar Ahora</button>
+            <p>Disponible en tiendas cerca de ti. ¡No esperes más para sentir la diferencia!</p>
+            <button class="cta-button">Comprar Ahora</button>
         </section>
     </main>
     <footer>
